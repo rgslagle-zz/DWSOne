@@ -13,27 +13,8 @@ body{
 
 header{	
 	background-color:#FFF;
-	background-image:url(../images/pattern_105.gif);
-	background-repeat: repeat-x;
 	background-position:top;
 	width: 90%;
-	margin-left: auto;
-	margin-right: auto;
-	border-style: solid;
-	border-radius:  10px;
-	border-width: 1px;
-	padding: 20px;
-	box-shadow: 0 0 15px #000;
-	}
-	
-/*background for the main content on the page*/
-
-#content{
-	background-image: url(../images/pattern_084.gif);
-	background-repeat: repeat;
-	background-position: center;
-	width: 80%;
-	height: 1800px;
 	margin-left: auto;
 	margin-right: auto;
 	border-style: solid;
@@ -103,9 +84,6 @@ p{
 	
 ol{
 	list-style-type: square;
-	}
-figure{
-	display: block;
 	}
 	
 /* unvisited link */
