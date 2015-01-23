@@ -14,8 +14,11 @@ body{
 /*added new styling based on an updated layout*/
 
 header{	
-	background-color:#FFF;
+	background-color: #FFFFFF;
 	background-position:top;
+	background-image:url(../Images/logo.png);
+	background-position:right;
+	background-repeat:no-repeat;
 	width: 90%;
 	margin-left: auto;
 	margin-right: auto;
@@ -33,7 +36,7 @@ article{
 	width: 28%;
 	padding: 6%;
 	margin: 2%;
-	background-image:url(../Images/grass.jpg);
+	background-image:url(../Images/grass.gif);
 	background-repeat:repeat;
 	border-style: solid;
 	border-radius:  5px;
@@ -47,13 +50,10 @@ article{
 h1{	
 	font-size: 3em;
 	color: #F03;
-	opacity: .7;
 	text-align: center;
 	vertical-align: middle;
 	text-transform:uppercase;
 	text-shadow: 2px 2px 7px #333;
-	background-image:url(../images/baseball.png);
-	background-repeat: no-repeat;
 	}
 	
 #personal, #professional, #gallery{ 
@@ -80,13 +80,19 @@ footer{
 	
 p{
 	font-family: 'Alegreya', serif;
+	font-style:normal;
 	text-indent: 15px;
-	color:#FFFFFF;
+	color: #333333;
 	padding: 5px;
 	line-height: 110%;
 	}
+#head{
+	color: #000000;
+	font-weight: 800;
+	}
+	
 figcaption{
-	color: #FFFFFF;
+	color: #333333;
 	}
 	
 ol{
