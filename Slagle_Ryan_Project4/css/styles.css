@@ -4,11 +4,11 @@
 /*Style the structure of the landing page */
 
 body{
-	background: #666 url(fade.png) 0 0 repeat-y;
+	background: #666 url(../../Website/css/fade.png) 0 0 repeat-y;
     background: -webkit-linear-gradient(right, #66F, #30C); 
     background: linear-gradient(to right, #0CF, #00F);
-	margin-left: auto;
-	margin-right: auto;
+	width: 1200px;
+	margin: 0 auto;
  }
 	
 /*added new styling based on an updated layout*/
@@ -49,6 +49,7 @@ article{
 	
 h1{	
 	font-size: 3em;
+	font-style: italic;
 	color: #F03;
 	text-align: center;
 	vertical-align: middle;
@@ -71,16 +72,29 @@ footer{
 	clear: both;
 	}
 	
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+	text-align: center;
+	text-transform: uppercase;
+	font-size:14px;
+	font-weight: bold;
+	background-color: #CCFFCC;
+}
+th, td {
+    padding: 5px;
+}
+
+	
 /*using a different google font for my paragraph styling*/
 
 @font-face{
-	font-family: 'Alegreya', serif;
-	src: url(http://fonts.googleapis.com/css?family=Alegreya)
+	font-family: 'open-sans';
+	src:url(../fonts/OpenSans-BoldItalic.ttf);
 	}
 	
 p{
-	font-family: 'Alegreya', serif;
-	font-style:normal;
+	font-family: 'open-sans', serif;
 	text-indent: 15px;
 	color: #333333;
 	padding: 5px;
@@ -89,6 +103,20 @@ p{
 #head{
 	color: #000000;
 	font-weight: 800;
+	}
+		
+#form{
+	border-style:solid;
+	border-width: 2px;
+	padding: 10px;
+	margin-left: 10px;
+	margin-right:900px;
+	background-color:#CCC;
+	font-size: 14px;
+	}
+#figure{
+	display: block;
+	margin-left: 5px;
 	}
 	
 figcaption{
