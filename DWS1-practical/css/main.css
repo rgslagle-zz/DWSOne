@@ -3,7 +3,6 @@ body{
 	margin: 0 auto;
 	padding: 0;
 	font: .75em/1.5em Helvetica, Arial, sans-serif;
-	color: #797267;
 	width: 960px;
 	background: #797267;
 }
@@ -93,9 +92,11 @@ h2{
 	
 #column2of2{
 	width: 260px;
-	float:left;
+	float: left;
 	margin: 25px 0px 45px 44px;
 }
+
+/*----block out the image with text wraping---*/
 
 img.sample-thumb1{
 	float:left;
@@ -118,10 +119,8 @@ img.sample-thumb3{
 	border: 2px solid #FFFFFF;
 	margin-bottom: 25px;
 	}
-p.column2of2{
-	float:right;
-	
-	}
+
+/*----Footer with image and text----*/
 
 footer{
 	float:left;
@@ -133,6 +132,8 @@ footer{
 	background-position: top center;
 }
 footer p{
+	margin-top: 92px;
+	margin-bottom: 25px;
 	text-align: center;
 	color: #423b2e;
 	}
