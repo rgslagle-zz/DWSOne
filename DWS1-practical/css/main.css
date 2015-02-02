@@ -1,5 +1,5 @@
 /*------ Document -----*/
-body {
+body{
 	margin: 0 auto;
 	padding: 0;
 	font: .75em/1.5em Helvetica, Arial, sans-serif;
@@ -8,11 +8,12 @@ body {
 	background: #797267;
 }
 
+/*----Header with logo and Nav bar-----*/
+
 header{
 	background-image: url(../images/header-bg.jpg);
 	height: 210px;
 	}
-	
 	
 h1{
 	text-indent: -9999px;
@@ -30,10 +31,9 @@ nav{
 	float: right;
 	width: 277px;
 	position: relative;
-	right: 64px;
-	top: 25px;
-
+	left: -64px;
 }
+
 ul{
 	list-style-type: none;
     padding: 0;
@@ -58,6 +58,8 @@ a:hover, a:active {
     color: #bf3102;
 }	
 
+/*-----banner logo-----*/
+
 #banner{
 	background-image:url(../images/banner.jpg);
 	width: 890px;
@@ -66,37 +68,58 @@ a:hover, a:active {
 	margin-right: auto;
 }
 
-#main-content{
-	background-image:url(../images/main-content-bg.jpg);
-	background-repeat: repeat-y;
-	padding-bottom: 45px;
-}
+/*...Css for the 2 column layout..*/
 
 h2{
-	margin: 0;
 	font-size: 1.5em;
 	color: #423b2e;
 	border-bottom: 2px solid #797267;
 	padding-bottom: 10px;
 	color: #423B2E;
 }
-	
+
+#main-content{
+	background-image:url(../images/main-content-bg.jpg);
+	background-repeat: repeat-y;
+	width:960px;
+	height: 750px;
+}
+
 #column1of2{
-	float: left;
 	width: 450px;
-	height: 450px;
-	padding: 25px 44px 0px 64px;
-	
+	float:left;
+	margin: 25px 0px 45px 64px;
 }
 	
 #column2of2{
 	width: 260px;
-	margin-top: 25px;
-	
+	float:left;
+	margin: 25px 0px 45px 44px;
 }
 
-img{
+img.sample-thumb1{
+	float:left;
+	margin-right: 10px;
 	display: block;
+	border: 2px solid #FFFFFF;
+	margin-bottom: 25px;
+	}
+img.sample-thumb2{
+	float:left;
+	margin-right: 10px;
+	display: block;
+	border: 2px solid #FFFFFF;
+	margin-bottom: 25px;
+	}	
+img.sample-thumb3{
+	float:left;
+	margin-right: 10px;
+	display: block;
+	border: 2px solid #FFFFFF;
+	margin-bottom: 25px;
+	}
+p.column2of2{
+	float:right;
 	
 	}
 
